@@ -3,6 +3,7 @@ CSS VARIABLES
 */
 :root {
     --primary-color: #0077b6;
+    --secondary-color: #90e0ef;
     --accent1-color: #03045e;
     --accent2-color: #caf0f8;
 
@@ -25,6 +26,7 @@ CSS VARIABLES
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+    background-color: var(--accent2-color);
 }
 
 /* LAYOUT WIDTH
@@ -35,6 +37,15 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color);
 }
 
 /* HEADINGS*/
@@ -96,7 +107,7 @@ nav a {
     left: 20px;
     background-color: var(--accent2-color);
     padding: 10px;
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 /* ARTICLE IMAGE */
@@ -107,11 +118,18 @@ nav a {
     margin-left: 10px;
 }
 
+/* SECTION */
+
+section {
+    background-color: white;
+}
+
 /* FOOTER */
 
 footer {
     text-align: center;
     margin-top: 20px;
+    background-color: var(--secondary-color);
 }
 
 /* SOCIAL MEDIA */

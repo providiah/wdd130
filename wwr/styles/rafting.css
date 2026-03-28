@@ -103,7 +103,7 @@ nav a {
     padding: 10px;
     text-align: center;
     background-color: var(--accent1-color);
-    color: white;
+    color: var(--accent2-color);
 }
 
 /* HERO ARTICLE */
@@ -156,7 +156,7 @@ figure {
 /* SECTION */
 
 section {
-    background-color: white;
+    background-color: var(--accent2-color);
 }
 
 /* FOOTER */

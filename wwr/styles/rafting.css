@@ -6,6 +6,7 @@ CSS VARIABLES
     --secondary-color: #90e0ef;
     --accent1-color: #03045e;
     --accent2-color: #caf0f8;
+    --white: #ffffff;
 
     --heading-font: Arial, sans-serif;
     --body-font: Verdana, sans-serif;
@@ -103,7 +104,7 @@ nav a {
     padding: 10px;
     text-align: center;
     background-color: var(--accent1-color);
-    color: var(--accent2-color);
+    color: var(--white);
 }
 
 /* HERO ARTICLE */
@@ -156,7 +157,7 @@ figure {
 /* SECTION */
 
 section {
-    background-color: var(--accent2-color);
+    background-color: var(--white);
 }
 
 /* FOOTER */
